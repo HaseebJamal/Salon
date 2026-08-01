@@ -1,0 +1,830 @@
+# Build a Premium Salon & Beauty Directory Website
+
+I want you to **design and fully develop a modern, premium, visually stunning, responsive website** for a salon and beauty business directory in **Jaranwala and Faisalabad, Pakistan**.
+
+The website should look like a **high-end professional salon/beauty platform**, not a basic business listing website. The design should feel luxurious, elegant, modern, smooth, and visually engaging.
+
+The website must be **fully functional, responsive, fast, SEO-friendly, and production-ready**.
+
+---
+
+## 1. Website Purpose
+
+Create a professional website that showcases a collection of the best salons, beauty parlours, hair salons, makeup studios, and spas in the Jaranwala/Faisalabad area.
+
+The website should help visitors:
+
+* Discover salons and beauty businesses
+* View salon information
+* See contact details
+* View addresses
+* See review counts
+* Visit Instagram profiles
+* Search for salons
+* Filter businesses
+* Explore salon details
+* Contact salons easily
+* Find salons based on categories and location
+
+The website should have a **premium salon-inspired aesthetic** with beautiful typography, elegant animations, smooth transitions, interactive cards, and modern UI components.
+
+---
+
+# 2. Brand / Website Style
+
+Use a **luxury beauty and salon design system**.
+
+The visual identity should communicate:
+
+* Luxury
+* Beauty
+* Elegance
+* Confidence
+* Modern lifestyle
+* Professionalism
+* Premium self-care
+* Glamour
+
+### Recommended Color Scheme
+
+Use a sophisticated color palette such as:
+
+* Deep Charcoal / Near Black
+* Warm Cream / Ivory
+* Soft Beige
+* Champagne Gold
+* Rose Gold
+* Subtle Nude / Blush accents
+
+Do not make the website overly colorful.
+
+The primary design should feel **premium, minimal, elegant, and expensive**.
+
+Use gradients very carefully where appropriate.
+
+Use subtle glassmorphism effects for selected UI elements, but do not overuse them.
+
+The website should have excellent contrast and readability.
+
+---
+
+# 3. Fonts and Typography
+
+Use high-quality fonts suitable for a luxury salon and beauty brand.
+
+Recommended combination:
+
+### Headings
+
+Use an elegant serif font such as:
+
+* Playfair Display
+* Cormorant Garamond
+* DM Serif Display
+
+### Body Text
+
+Use a clean modern sans-serif font such as:
+
+* Inter
+* Poppins
+* Montserrat
+* Manrope
+
+Use a combination of **one elegant serif font for major headings** and **one clean sans-serif font for body text and UI**.
+
+Typography should be visually balanced and professional.
+
+Use large, elegant headings with proper letter spacing.
+
+For example:
+
+"Discover Your Perfect Beauty Experience"
+
+or
+
+"Where Beauty Meets Elegance"
+
+---
+
+# 4. Website Structure
+
+Build the website with the following pages/sections:
+
+## A. Home Page
+
+Create a stunning hero section.
+
+The hero section should include:
+
+* Large luxury salon-related background image
+* Dark elegant overlay
+* Main headline
+* Supporting subtitle
+* Search bar
+* Location selector
+* Category selector
+* CTA button
+
+Suggested headline:
+
+"Discover Beauty. Discover Confidence."
+
+Suggested subtitle:
+
+"Explore the finest salons, beauty parlours, hair studios, makeup artists, and spas in Jaranwala and Faisalabad."
+
+Search UI:
+
+"Search salons, beauty parlours, hair studios..."
+
+Location:
+
+"Jaranwala / Faisalabad"
+
+Category options:
+
+* Hair Salon
+* Beauty Parlour
+* Makeup Studio
+* Spa
+* Hair Styling
+* Bridal Makeup
+* Facial & Skincare
+
+Add an elegant CTA:
+
+"Explore Salons"
+
+Add subtle animated decorative elements.
+
+---
+
+# 5. Advanced Hero Animations
+
+The hero section should feel highly polished.
+
+Add:
+
+* Smooth text reveal animation
+* Fade-up animations
+* Staggered animation for heading, subtitle, search bar, and buttons
+* Subtle background image zoom/parallax effect
+* Floating decorative particles or light effects
+* Smooth gradient animation
+* Animated scroll indicator
+* Mouse movement interaction if appropriate
+
+Animations should be smooth and premium.
+
+Avoid excessive or distracting animations.
+
+---
+
+# 6. Featured Salons Section
+
+Create a section titled:
+
+"Featured Beauty Destinations"
+
+Display salon businesses in beautiful interactive cards.
+
+Each card should contain:
+
+* Business name
+* Category
+* Location
+* Phone number
+* Review count
+* Instagram button if available
+* View Details button
+* Call Now button
+* Attractive salon image
+* Favorite/heart icon
+
+Use premium cards with:
+
+* Rounded corners
+* Soft shadows
+* Hover animations
+* Image zoom on hover
+* Gradient overlays
+* Smooth card elevation
+* Subtle border effects
+
+On hover:
+
+* Image should gently zoom
+* Card should move slightly upward
+* Buttons should animate smoothly
+* A subtle glow or shadow should appear
+
+---
+
+# 7. Salon Business Data
+
+Use the following businesses as the initial database/content.
+
+## 1. Mr Fresh Hair Salon
+
+Category:
+Salon / Hair Salon
+
+Location:
+Circular Road, near Care Pharmacy, Municipal Colony, Jaranwala, Pakistan
+
+Contact:
+03027606466
+
+Instagram:
+Not provided
+
+Total Reviews:
+42
+
+---
+
+## 2. Fancy Beauty Parlour
+
+Category:
+Beauty Parlour
+
+Address:
+8CWC+2HQ, Jhumra Road, Raja Sehroz Marrquee, Jaranwala, Pakistan
+
+Contact:
+03217289628
+
+Instagram:
+https://www.instagram.com/fancy_beauty_salon1/
+
+Total Reviews:
+42
+
+---
+
+## 3. Rabia Beauty Parlor
+
+Category:
+Beauty Parlour
+
+Address:
+8CVG+W95, 127 GB Road, Al-Madina Colony, Jaranwala, Pakistan
+
+Contact:
+03217218145
+
+Instagram:
+Not provided
+
+Total Reviews:
+14
+
+---
+
+## 4. Teejee's Signature Salon
+
+Category:
+Signature Salon
+
+Address:
+1 Jaranwala Rd, Al Najaf Colony, Faisalabad, Pakistan
+
+Contact:
+03457851171
+
+Instagram:
+Not provided
+
+Total Reviews:
+33
+
+---
+
+## 5. Aura And Ash Salon Faisalabad
+
+Category:
+Salon / Beauty Salon
+
+Address:
+1 Jaranwala Rd, Al Najaf Colony, Faisalabad, Pakistan
+
+Contact:
+03221517717
+
+Instagram:
+https://www.instagram.com/auraandashsalonfaisalabad/
+
+Total Reviews:
+45
+
+---
+
+## 6. Sarfraz Hair Saloon
+
+Category:
+Hair Salon
+
+Address:
+Jaranwala, Pakistan
+
+Contact:
+03024142610
+
+Instagram:
+Not provided
+
+Total Reviews:
+22
+
+---
+
+## 7. Dionne Makeup Studio & Spa
+
+Category:
+Makeup Studio & Spa
+
+Address:
+Shop # 138-144, Upper Ground Floor, Besides Kamb Kafe/Portobello Do Burj Plaza, Koh e Noor City Main Jaranwala Road, Kohinoor City, Faisalabad, 38000, Pakistan
+
+Contact:
+03318889265
+
+Instagram:
+Not provided
+
+Reviews:
+Not provided
+
+---
+
+# 8. Search and Filter System
+
+Build a fully functional salon search and filtering system.
+
+Users should be able to search by:
+
+* Salon name
+* Location
+* Category
+
+Add filters:
+
+* All
+* Hair Salons
+* Beauty Parlours
+* Makeup Studios
+* Spas
+* Featured
+
+Add sorting:
+
+* Most Reviewed
+* Highest Rated
+* A-Z
+* Newest
+
+The search should update the salon cards dynamically without refreshing the page.
+
+Include a beautiful "No Results Found" state.
+
+---
+
+# 9. Salon Details Page
+
+When the user clicks "View Details", open a dedicated salon details page or elegant modal.
+
+Display:
+
+* Large salon cover image
+* Business name
+* Category
+* Address
+* Phone number
+* Review count
+* Instagram profile
+* About section
+* Services section
+* Gallery
+* Contact buttons
+* Call Now
+* Get Directions
+* Follow on Instagram
+
+Add a map section if possible.
+
+Use Google Maps links based on the business address.
+
+The phone number should be clickable using:
+
+tel:
+
+The Instagram button should open Instagram in a new tab.
+
+---
+
+# 10. Navigation Bar
+
+Create a premium sticky navigation bar.
+
+Navigation items:
+
+* Home
+* Explore Salons
+* Categories
+* About
+* Contact
+
+Add:
+
+* Search icon
+* Mobile menu
+* CTA button: "Explore Salons"
+
+The navbar should:
+
+* Become slightly smaller when scrolling
+* Have a smooth background transition
+* Use a glassmorphism effect on scroll
+* Have smooth hover animations
+
+Mobile navigation should use a beautiful animated hamburger menu.
+
+---
+
+# 11. Categories Section
+
+Create a visually attractive category section.
+
+Categories:
+
+* Hair Salons
+* Beauty Parlours
+* Makeup Studios
+* Spas
+* Bridal Makeup
+* Hair Styling
+* Skincare
+
+Each category should have:
+
+* Beautiful icon
+* Background image or visual
+* Category title
+* Number of salons
+* Hover animation
+
+Use 3D-style hover effects or tilt effects where appropriate.
+
+---
+
+# 12. Why Choose Us Section
+
+Create a section explaining why users should use this platform.
+
+Use 3 or 4 feature cards:
+
+### Discover Easily
+
+Find salons and beauty professionals in your area.
+
+### Trusted Businesses
+
+Explore established local beauty and salon businesses.
+
+### Easy Contact
+
+Call or connect with salons instantly.
+
+### Explore Instagram
+
+View salon profiles and discover their latest work.
+
+Add animated icons and scroll reveal animations.
+
+---
+
+# 13. Reviews / Social Proof Section
+
+Create a visually elegant section showcasing review statistics.
+
+Example:
+
+"42+ Reviews"
+
+"45+ Reviews"
+
+"Trusted Beauty Businesses"
+
+Use animated counters that count up when the section enters the viewport.
+
+Create a premium testimonial-style layout.
+
+If actual customer review text is not available, **do not invent fake customer testimonials**.
+
+Use review counts and business statistics only.
+
+---
+
+# 14. Instagram Integration
+
+For businesses that have Instagram links, display an Instagram button.
+
+Use the official Instagram icon.
+
+Button text:
+
+"View Instagram"
+
+Open Instagram links in a new browser tab.
+
+Do not create fake Instagram accounts for businesses that do not have Instagram information.
+
+---
+
+# 15. Contact Section
+
+Create a premium contact section.
+
+Include:
+
+* Phone number
+* Location
+* Email placeholder if needed
+* Contact form
+
+Contact form fields:
+
+* Name
+* Phone
+* Email
+* Message
+
+Add a beautiful CTA:
+
+"Ready to Discover Your Perfect Salon?"
+
+Add a button:
+
+"Explore Salons"
+
+---
+
+# 16. Footer
+
+Create a premium dark footer.
+
+Include:
+
+* Website logo/name
+* Short description
+* Quick Links
+* Categories
+* Contact information
+* Social media links
+* Copyright
+
+Example:
+
+"© 2026 All Rights Reserved."
+
+Do not add social media links unless they are actually available.
+
+---
+
+# 17. Animation Requirements
+
+I specifically want **high-quality animations throughout the website**.
+
+Use modern animation libraries such as:
+
+* Framer Motion
+* GSAP
+* Three.js
+* React Three Fiber
+* Lenis smooth scrolling
+
+Only use libraries that are compatible with the selected technology stack.
+
+Implement:
+
+### Basic Animations
+
+* Fade in
+* Fade up
+* Fade down
+* Slide in
+* Scale in
+
+### Advanced Animations
+
+* Scroll-triggered animations
+* Staggered animations
+* Parallax scrolling
+* Image reveal animations
+* Text reveal animations
+* Magnetic buttons
+* Smooth hover effects
+* Animated counters
+* Page transitions
+* Smooth scrolling
+
+### 3D Animations
+
+I specifically want **three-dimensional / 3D visual effects** where they improve the design.
+
+Consider using:
+
+* Interactive 3D floating beauty/salon objects
+* Floating abstract 3D shapes
+* Subtle 3D background elements
+* 3D card tilt on mouse movement
+* Interactive 3D hero decoration
+* Depth-based parallax
+
+The 3D effects must be elegant and optimized.
+
+Do not make the website look like a gaming website.
+
+The 3D design should feel like a **luxury beauty brand**.
+
+---
+
+# 18. Performance Requirements
+
+Despite using animations and 3D effects, the website must remain fast.
+
+Requirements:
+
+* Lazy-load images
+* Optimize images
+* Avoid unnecessarily heavy 3D models
+* Use GPU-friendly animations
+* Avoid excessive JavaScript
+* Use responsive images
+* Minimize layout shifts
+* Optimize fonts
+* Ensure smooth scrolling
+* Maintain good Lighthouse performance
+
+If 3D effects significantly hurt performance on mobile devices, reduce or disable complex 3D effects on mobile.
+
+---
+
+# 19. Responsive Design
+
+The website must work perfectly on:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Pay special attention to:
+
+* iPhone-sized screens
+* Android phones
+* Tablet layouts
+
+The mobile version should not simply be a compressed desktop version.
+
+Create a dedicated responsive layout.
+
+Ensure:
+
+* Navigation works perfectly
+* Cards stack properly
+* Text remains readable
+* Buttons are easy to tap
+* Search functionality works on mobile
+* Animations remain smooth
+
+---
+
+# 20. Technical Requirements
+
+Use a modern technology stack.
+
+Preferred:
+
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Three.js / React Three Fiber where appropriate
+
+Use reusable components.
+
+Create a clean project structure.
+
+Use data-driven rendering for salon listings instead of hardcoding every card individually.
+
+Create reusable components such as:
+
+* Navbar
+* Hero
+* SearchBar
+* SalonCard
+* SalonGrid
+* CategoryCard
+* FilterBar
+* SalonDetails
+* ReviewStats
+* ContactSection
+* Footer
+
+Store salon data in a structured format such as JSON or TypeScript objects so it can easily be updated later.
+
+---
+
+# 21. SEO
+
+Optimize the website for local SEO.
+
+Target keywords such as:
+
+* Salons in Jaranwala
+* Best salons in Jaranwala
+* Beauty parlours in Jaranwala
+* Hair salons in Jaranwala
+* Makeup artists in Jaranwala
+* Salons in Faisalabad
+* Beauty salons near Jaranwala Road
+
+Add:
+
+* Proper page title
+* Meta description
+* Open Graph metadata
+* Semantic HTML
+* Structured data where appropriate
+* LocalBusiness schema where appropriate
+
+Make sure the business names, addresses, and phone numbers are clearly indexed.
+
+---
+
+# 22. User Experience
+
+The overall experience should feel:
+
+**Premium + Elegant + Modern + Fast + Smooth + Trustworthy**
+
+Use subtle micro-interactions everywhere appropriate.
+
+Examples:
+
+* Buttons slightly scale on hover
+* Icons animate on hover
+* Cards lift on hover
+* Images zoom subtly
+* Text reveals smoothly
+* Sections animate as users scroll
+* Counters animate when visible
+* Navigation transitions smoothly
+
+Avoid excessive animations that make the website difficult to use.
+
+---
+
+# 23. Important Design Instruction
+
+Do NOT create a generic template.
+
+I want the website to feel like a **premium international salon discovery platform** designed by a professional UI/UX designer.
+
+Take inspiration from luxury beauty brands and modern premium directories, but do not directly copy any existing website.
+
+Use excellent spacing, hierarchy, typography, visual balance, and premium interactions.
+
+The first impression should be visually impressive.
+
+---
+
+# 24. Final Development Requirements
+
+Please:
+
+1. Build the complete website.
+2. Implement all pages and sections.
+3. Add all provided salon businesses.
+4. Make search and filtering functional.
+5. Make phone numbers clickable.
+6. Make Instagram links functional where provided.
+7. Add Google Maps / directions functionality where possible.
+8. Add responsive mobile navigation.
+9. Add advanced animations.
+10. Add tasteful 3D effects.
+11. Optimize performance.
+12. Ensure there are no broken links or buttons.
+13. Ensure there are no console errors.
+14. Make all forms visually complete and functional.
+15. Use placeholder content only where information was not provided.
+16. Do not invent review text, ratings, Instagram accounts, or business information.
+17. Make the website easy to maintain and expand with more salons later.
+18. Test the entire website on desktop and mobile screen sizes.
+19. Make sure the final result is polished and production-ready.
+
+Before finishing, review the entire website and improve any section that looks generic, empty, unbalanced, or unfinished.
+
+The final result should look like a **premium, award-winning salon and beauty discovery website for Jaranwala and Faisalabad**.

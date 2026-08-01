@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Jaranwala Beauty Directory"
+version = "1.0.0"
+id = "artifacts/salon-directory"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22164
+
+[services.development]
+run = "pnpm --filter @workspace/salon-directory run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/salon-directory", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/salon-directory/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22164"
+BASE_PATH = "/"
