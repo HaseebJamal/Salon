@@ -76,6 +76,7 @@ export function Navbar() {
                 variant="ghost"
                 size="icon"
                 onClick={() => scrollToSection('salons')}
+                className={`transition-colors duration-300 ${isScrolled ? 'text-foreground hover:text-primary' : 'text-white hover:text-primary'}`}
                 data-testid="search-icon-button"
               >
                 <Search className="h-5 w-5" />

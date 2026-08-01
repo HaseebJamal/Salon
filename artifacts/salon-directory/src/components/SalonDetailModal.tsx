@@ -1,14 +1,20 @@
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { X, Phone, Instagram, MapPin, Star, Navigation } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
   Dialog,
   DialogContent,
-  DialogHeader,
-  DialogTitle,
 } from '@/components/ui/dialog';
 import type { Salon } from '@/data/salons';
+import { salonImages } from '@/assets/salonImages';
+
+function toWhatsAppNumber(phone: string): string {
+  const digits = phone.replace(/\D/g, '');
+  if (digits.startsWith('0')) return '92' + digits.slice(1);
+  return digits;
+}
 
 interface SalonDetailModalProps {
   salon: Salon | null;

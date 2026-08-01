@@ -1,10 +1,18 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Phone, Instagram, Heart, MapPin, Star } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import type { Salon } from '@/data/salons';
 import { salonImages } from '@/assets/salonImages';
+
+function toWhatsAppNumber(phone: string): string {
+  // Convert Pakistani local number (03xxxxxxxxx) to international (923xxxxxxxxx)
+  const digits = phone.replace(/\D/g, '');
+  if (digits.startsWith('0')) return '92' + digits.slice(1);
+  return digits;
+}
 
 interface SalonCardProps {
   salon: Salon;
@@ -97,33 +105,51 @@ export function SalonCard({ salon, index, onViewDetails }: SalonCardProps) {
         </a>
 
         {/* Actions */}
-        <div className="flex gap-2 pt-2">
+        <div className="flex gap-2 pt-2 flex-wrap">
           <Button
             onClick={() => onViewDetails(salon)}
             variant="outline"
-            className="flex-1"
+            className="flex-1 min-w-[100px]"
             data-testid={`view-details-button-${salon.id}`}
           >
             View Details
           </Button>
-          {salon.instagram ? (
+          <a
+            href={`https://wa.me/${toWhatsAppNumber(salon.phone)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid={`whatsapp-button-${salon.id}`}
+          >
             <Button
-              onClick={() => window.open(salon.instagram, '_blank', 'noopener,noreferrer')}
               variant="ghost"
               size="icon"
+              className="text-green-600 hover:text-green-700 hover:bg-green-50"
+            >
+              <FaWhatsapp className="h-5 w-5" />
+            </Button>
+          </a>
+          {salon.instagram ? (
+            <a
+              href={salon.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
               data-testid={`instagram-button-${salon.id}`}
             >
-              <Instagram className="h-5 w-5" />
-            </Button>
+              <Button variant="ghost" size="icon" className="text-pink-600 hover:text-pink-700 hover:bg-pink-50">
+                <Instagram className="h-5 w-5" />
+              </Button>
+            </a>
           ) : null}
-          <Button
-            onClick={() => (window.location.href = `tel:${salon.phone}`)}
-            className="flex-1 bg-primary text-primary-foreground hover:bg-primary/90"
+          <a
+            href={`tel:${salon.phone}`}
+            className="flex-1 min-w-[100px]"
             data-testid={`call-button-${salon.id}`}
           >
-            <Phone className="h-4 w-4 mr-2" />
-            Call Now
-          </Button>
+            <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+              <Phone className="h-4 w-4 mr-2" />
+              Call Now
+            </Button>
+          </a>
         </div>
       </div>
     </motion.div>
